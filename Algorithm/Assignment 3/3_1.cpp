@@ -25,14 +25,14 @@ void merge(int a[], int first, int mid, int last)
 
     if(i > mid)
     {
-        for(int l = j ; j <= last ; j++)
+        for( ; j <= last ; j++)
         {
             c[k++] = a[j];
         }
     }
     else
     {
-        for(int l = i ; i <= mid ; i++)
+        for( ; i <= mid ; i++)
         {
             c[k++] = a[i];
         }
