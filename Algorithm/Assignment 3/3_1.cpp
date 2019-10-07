@@ -27,7 +27,7 @@ void merge(int a[], int first, int mid, int last)
     {
         for(int l = j ; j <= last ; j++)
         {
-            c[k++] = a[l];
+            c[k++] = a[j];
         }
     }
     else
